@@ -1,48 +1,38 @@
-# Harborline Logistics: Warehouse Associate job facts
+# Document 1: Warehouse role, schedule and locations
 
-Harborline Logistics is a third-party logistics company that stores and ships products for online retailers. The Otay Mesa fulfillment center opened in 2021 and has about 350 associates.
+Company: Harborline Logistics, a third-party logistics company that stores and ships products for online retailers.
 
-## Location
-- Address: 2450 Paseo de las Americas, San Diego, CA 92154 (Otay Mesa).
-- Free on-site parking. MTS bus route 905 stops about a five-minute walk away.
+Role: Warehouse Associate. On-site warehouse position, not office-based. Main tasks are picking and packing orders with an RF scanner, receiving and unloading trucks, putting away inventory, and loading outbound trailers. No experience required; paid training during the first week.
 
-## The job
-- Title: Warehouse Associate. Full-time, about 40 hours a week. Some part-time openings on day shift.
-- Main tasks: picking and packing orders with an RF scanner, receiving and unloading trucks, putting away inventory, and loading outbound trailers.
-- Physical requirements: lift up to 50 pounds repeatedly, stand and walk for most of the shift, work in a warehouse that can be warm in summer.
-- No experience required. Paid training lasts the first week.
+Shift: 6 a.m. to 2 p.m., Monday through Friday. Occasional overtime during peak season (mid-November through December), paid at time and a half.
 
-## Shifts
-- Day: 6:00 AM to 2:30 PM, Monday to Friday.
-- Swing: 2:30 PM to 11:00 PM, Monday to Friday.
-- Night: 10:00 PM to 6:30 AM, Sunday to Thursday.
-- Occasional mandatory overtime during peak season (mid-November through December), paid at time and a half.
+Early departure and callback: Associates may be able to leave once their assigned work is finished. Early departure does not mean being finished for the day. They must stay reachable by phone and be able to return to the warehouse within 45 minutes if their manager calls them back before 2 p.m. They are paid through 2 p.m. on those days. Callbacks happen on roughly one in five early-departure days.
 
-## Pay
-- Starting pay: $21.00 an hour.
-- Night shift differential: an extra $1.50 an hour.
-- Raise to $22.00 an hour after 90 days with a good performance review.
-- Forklift-certified associates earn an extra $1.00 an hour.
-- Paid weekly, every Friday, by direct deposit.
+Available locations:
+- San Francisco, California (South San Francisco facility)
+- Atlanta, Georgia (College Park facility)
+- San Diego, California (Otay Mesa facility)
+- Chicago, Illinois (Elk Grove Village facility)
+- Edison, New Jersey
 
-## Benefits
-- Medical, dental and vision insurance for full-time associates, starting the first of the month after 30 days.
-- 401(k) with a 4 percent company match after 90 days.
-- Paid time off: 40 hours in the first year, plus six paid holidays.
-- Free forklift certification after 90 days.
-- Steel-toe boot allowance of $100 a year.
+Relocation assistance: Harborline does not currently provide financial relocation assistance.
 
-## Hiring process
-1. Phone screening with Riley, the AI recruiter (this call).
-2. A 20-minute in-person meeting and site tour, booked during this call when possible. Tours run Monday to Friday, 9 AM to 4 PM. Bring a photo ID and wear closed-toe shoes.
-3. HR reviews the call and reaches out within two business days.
-4. Offer, then a background check.
-5. Typical time from screening to first day: one to two weeks.
+Start window: The preferred start window is within three weeks of the interview. This is a preference, not an automatic rejection rule.
 
-## Dress and safety
-- Steel-toe or composite-toe boots are required from day one.
-- Harborline provides safety vests, gloves and hearing protection.
-- Phones stay in lockers on the warehouse floor.
+# Document 2: Candidate FAQs
 
-## Questions to pass to HR
-If a caller asks about anything not listed here, such as specific managers, internal transfers, relocation, or accommodation details, say HR will follow up with that answer.
+Pay: $21.00 an hour in Atlanta, Chicago, San Diego and Edison; $25.00 an hour in San Francisco. Raise of $1.00 an hour after 90 days with a good review. Paid weekly by direct deposit.
+
+Benefits: Medical, dental and vision for full-time associates starting the first of the month after 30 days. 401(k) with a 4 percent match after 90 days. 40 hours of paid time off in the first year plus six paid holidays. $100 a year steel-toe boot allowance.
+
+Physical requirements: Lifting up to 50 pounds and standing or walking for most of the shift. Reasonable accommodations are available; the recruiting team discusses them directly.
+
+Sponsorship: Harborline does not currently sponsor employment visas for the Warehouse Associate role. The recruiting team reviews each candidate's situation individually, so the interview continues either way.
+
+Hiring steps: (1) this AI screening interview, (2) a 20-minute video interview with the recruiting team, which can be booked during this call, (3) a site visit, (4) an offer and background check. Most candidates hear back within two business days, and the process usually takes one to two weeks.
+
+What to wear or bring on day one: Steel-toe or composite-toe boots and a photo ID. Safety vests, gloves and hearing protection are provided.
+
+How to prepare for the video interview: Be somewhere quiet, have your availability handy, and bring any questions. There are no trick questions.
+
+Contact: recruiting@harborlinelogistics.com
