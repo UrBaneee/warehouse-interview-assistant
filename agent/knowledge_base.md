@@ -34,8 +34,8 @@ Harborline Logistics is a third-party logistics company that stores and ships pr
 
 ## Hiring process
 1. Phone screening with Riley, the AI recruiter (this call).
-2. HR reviews the call and reaches out within two business days.
-3. A 20-minute in-person meeting and site tour.
+2. A 20-minute in-person meeting and site tour, booked during this call when possible. Tours run Monday to Friday, 9 AM to 4 PM. Bring a photo ID and wear closed-toe shoes.
+3. HR reviews the call and reaches out within two business days.
 4. Offer, then a background check.
 5. Typical time from screening to first day: one to two weeks.
 

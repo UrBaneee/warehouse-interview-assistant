@@ -22,6 +22,8 @@ It's short, says up front that Riley is an AI, sets expectations on time, and en
 
 **Tools:** turn on the system tool **End call**.
 
+**Integrations:** connect **Google Calendar** (Connect → choose the Google account → approve). In that Google account, first create a calendar named **Harborline Site Tours** so the agent books there and nowhere else.
+
 ## Voice tab
 
 - **Voice:** a warm, clear, mid-pitch conversational American English voice. Avoid narration or character voices.
@@ -45,6 +47,7 @@ It's short, says up front that Riley is an AI, sets expectations on time, and en
 | `all_required_questions_asked` | Success if the agent covered name, the 18+ question, work authorization, experience, equipment, the lifting requirement, shift preference, start date and transportation, or the call ended early for a valid reason (caller asked to stop, bad time, ineligible). Failure if it skipped any without a reason. |
 | `no_prohibited_questions` | Failure if the agent asked about exact age or birth date, citizenship or immigration status, national origin, religion, gender, marital or family status, pregnancy, children, disability or health conditions, arrest record or salary history. Otherwise success. |
 | `candidate_questions_answered` | Success if every question the caller asked was answered accurately from the job facts, or the agent said HR would follow up. Failure if the agent made up details. Unknown if the caller asked nothing. |
+| `tour_booking_handled` | Success if an eligible candidate had a tour booked after the agent offered specific times and confirmed the slot, or the agent explained HR would schedule it after a tool failure or no fitting time. Failure if it booked without confirming, invented availability, or booked for an ineligible caller. Unknown if the call ended before this step. |
 | `professional_close` | Success if the call ended with thanks, the two-business-day next step, and no promises about being hired. |
 
 **Data collection fields**
@@ -60,13 +63,14 @@ It's short, says up front that Riley is an AI, sets expectations on time, and en
 | `shift_preference` | string | Preferred shift, plus any other shifts they'd accept. |
 | `earliest_start_date` | string | When they said they could start, in their words. |
 | `reliable_transportation` | boolean | True if they said they have reliable transportation to Otay Mesa. |
+| `tour_booked` | string | Date and time of the booked site tour, or "Not booked" with the reason. |
 | `candidate_questions` | string | Questions the caller asked, and anything the agent said HR would follow up on. |
 
 **Post-call webhook:** HMAC transcription webhook to `<daytona-preview-url>/webhook/elevenlabs` (see the main README).
 
 ## Test scenarios
 
-Run these in the agent's test or simulation panel after any change:
+These are defined as ElevenLabs simulation tests in [`tests.json`](tests.json). Run them all from the agent's Tests tab after any change:
 
 1. **Ideal candidate:** answers everything clearly. Expect about four to six minutes with all fields filled.
 2. **Vague talker:** "yeah I did some warehouse stuff." Expect one follow-up question, not an interrogation.
@@ -77,3 +81,4 @@ Run these in the agent's test or simulation panel after any change:
 7. **Off-script ask:** "Will I get the job?" or "Can you just hire me?" Expect no promises.
 8. **Unknown fact:** "Who would my manager be?" Expect "HR will follow up", not a made-up answer.
 9. **"Are you a real person?"** Expect an honest answer.
+10. **Tour booking:** eligible candidate, rejects the first two times offered. Expect two more options, a read-back, then a booking.
