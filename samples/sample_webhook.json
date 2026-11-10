@@ -1,0 +1,219 @@
+{
+ "type": "post_call_transcription",
+ "event_timestamp": 1794277913,
+ "data": {
+  "agent_id": "agent_demo",
+  "conversation_id": "conv_demo_marcus_01",
+  "status": "done",
+  "transcript": [
+   {
+    "role": "agent",
+    "time_in_call_secs": 0,
+    "message": "Hi, this is Riley, the virtual recruiter for Harborline Logistics. Thanks for calling about the Warehouse Associate role. This screening takes about five minutes, and a person on our HR team reviews every call. Is now a good time?"
+   },
+   {
+    "role": "user",
+    "time_in_call_secs": 11,
+    "message": "Yeah, now's good."
+   },
+   {
+    "role": "agent",
+    "time_in_call_secs": 14,
+    "message": "Great. What's your full name?"
+   },
+   {
+    "role": "user",
+    "time_in_call_secs": 17,
+    "message": "Marcus Delgado."
+   },
+   {
+    "role": "agent",
+    "time_in_call_secs": 20,
+    "message": "Thanks, Marcus. Are you at least 18 years old?"
+   },
+   {
+    "role": "user",
+    "time_in_call_secs": 23,
+    "message": "Yes, I'm 24."
+   },
+   {
+    "role": "agent",
+    "time_in_call_secs": 26,
+    "message": "And are you legally authorized to work in the United States?"
+   },
+   {
+    "role": "user",
+    "time_in_call_secs": 30,
+    "message": "Yes."
+   },
+   {
+    "role": "agent",
+    "time_in_call_secs": 32,
+    "message": "Tell me about any warehouse or similar work you've done."
+   },
+   {
+    "role": "user",
+    "time_in_call_secs": 36,
+    "message": "I did about two years at a distribution center in Chula Vista, mostly picking and packing, some receiving."
+   },
+   {
+    "role": "agent",
+    "time_in_call_secs": 45,
+    "message": "Two years of picking, packing and receiving, that's helpful. Did you use any equipment, like a pallet jack or forklift?"
+   },
+   {
+    "role": "user",
+    "time_in_call_secs": 52,
+    "message": "Electric pallet jack every day. I don't have a forklift cert though."
+   },
+   {
+    "role": "agent",
+    "time_in_call_secs": 57,
+    "message": "No problem, we offer forklift certification after 90 days. The job involves lifting up to 50 pounds repeatedly. Can you do that safely?"
+   },
+   {
+    "role": "user",
+    "time_in_call_secs": 64,
+    "message": "Yeah, that's fine."
+   },
+   {
+    "role": "agent",
+    "time_in_call_secs": 66,
+    "message": "We have three shifts: day from 6 to 2:30, swing from 2:30 to 11, and night from 10 PM to 6:30, with a dollar fifty extra per hour on nights. Which works for you?"
+   },
+   {
+    "role": "user",
+    "time_in_call_secs": 76,
+    "message": "Swing would be best. Night is okay too."
+   },
+   {
+    "role": "agent",
+    "time_in_call_secs": 80,
+    "message": "Got it, swing first, night also works. When could you start?"
+   },
+   {
+    "role": "user",
+    "time_in_call_secs": 83,
+    "message": "I need to give two weeks' notice, so the 24th."
+   },
+   {
+    "role": "agent",
+    "time_in_call_secs": 87,
+    "message": "And do you have reliable transportation to our Otay Mesa site?"
+   },
+   {
+    "role": "user",
+    "time_in_call_secs": 90,
+    "message": "Yeah, I drive."
+   },
+   {
+    "role": "agent",
+    "time_in_call_secs": 92,
+    "message": "Perfect. What questions do you have for me?"
+   },
+   {
+    "role": "user",
+    "time_in_call_secs": 95,
+    "message": "What's the pay?"
+   },
+   {
+    "role": "agent",
+    "time_in_call_secs": 97,
+    "message": "Warehouse Associates start at 21 dollars an hour, plus the night differential if you work nights. Full-time associates get medical, dental and vision after 30 days. Anything else?"
+   },
+   {
+    "role": "user",
+    "time_in_call_secs": 106,
+    "message": "No, that's it."
+   },
+   {
+    "role": "agent",
+    "time_in_call_secs": 108,
+    "message": "Thanks, Marcus. Someone from HR will review this call and reach out within two business days. Have a good evening."
+   }
+  ],
+  "metadata": {
+   "start_time_unix_secs": 1794277793,
+   "call_duration_secs": 114
+  },
+  "analysis": {
+   "call_successful": "success",
+   "call_summary_title": "Experienced picker, prefers swing, can start the 24th",
+   "transcript_summary": "Marcus Delgado, 24, is authorized to work in the US and has about two years of picking, packing and receiving experience at a Chula Vista distribution center, including daily electric pallet jack use. He is not forklift certified. He can lift 50 pounds, prefers swing shift but is open to nights, drives, and can start on the 24th after giving notice. He asked about pay and was told the starting rate and benefits.",
+   "data_collection_results": {
+    "candidate_name": {
+     "data_collection_id": "candidate_name",
+     "value": "Marcus Delgado",
+     "rationale": "Stated his full name at the start of the call."
+    },
+    "is_18_or_older": {
+     "data_collection_id": "is_18_or_older",
+     "value": true,
+     "rationale": "Confirmed he is 24."
+    },
+    "work_authorized": {
+     "data_collection_id": "work_authorized",
+     "value": true,
+     "rationale": "Answered yes when asked."
+    },
+    "warehouse_experience": {
+     "data_collection_id": "warehouse_experience",
+     "value": "About 2 years: picking, packing, receiving at a distribution center",
+     "rationale": "Described his Chula Vista role."
+    },
+    "equipment_experience": {
+     "data_collection_id": "equipment_experience",
+     "value": "Electric pallet jack daily; no forklift certification",
+     "rationale": "Mentioned both directly."
+    },
+    "can_lift_50_lbs": {
+     "data_collection_id": "can_lift_50_lbs",
+     "value": true,
+     "rationale": "Said that's fine."
+    },
+    "shift_preference": {
+     "data_collection_id": "shift_preference",
+     "value": "Swing (nights also OK)",
+     "rationale": "Chose swing, said night is okay."
+    },
+    "earliest_start_date": {
+     "data_collection_id": "earliest_start_date",
+     "value": "The 24th, after two weeks' notice",
+     "rationale": "Stated directly."
+    },
+    "reliable_transportation": {
+     "data_collection_id": "reliable_transportation",
+     "value": true,
+     "rationale": "Said he drives."
+    },
+    "candidate_questions": {
+     "data_collection_id": "candidate_questions",
+     "value": "Asked about pay",
+     "rationale": "Only question asked."
+    }
+   },
+   "evaluation_criteria_results": {
+    "all_required_questions_asked": {
+     "criteria_id": "all_required_questions_asked",
+     "result": "success",
+     "rationale": "Every screening question was covered."
+    },
+    "no_prohibited_questions": {
+     "criteria_id": "no_prohibited_questions",
+     "result": "success",
+     "rationale": "No questions about protected characteristics."
+    },
+    "candidate_questions_answered": {
+     "criteria_id": "candidate_questions_answered",
+     "result": "success",
+     "rationale": "Pay question answered from the job facts."
+    },
+    "professional_close": {
+     "criteria_id": "professional_close",
+     "result": "success",
+     "rationale": "Explained next steps and timeline."
+    }
+   }
+  }
+ }
+}
