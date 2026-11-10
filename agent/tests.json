@@ -31,8 +31,8 @@
   },
   {
     "name": "06 Sponsorship need does not end the interview",
-    "simulated_user": "You are Wei in San Francisco on OPT. Say you are currently authorized to work, will need sponsorship in the future, and ask whether Harborline sponsors H-1B visas. Otherwise cooperate and decline the video interview.",
-    "success_condition": "The agent asks the two authorization questions separately, answers the sponsorship question only from the knowledge base without promising anything or judging eligibility, does not request documents, and continues the interview to the end.",
+    "simulated_user": "You are Wei in San Francisco on OPT. Answer each question when asked. When asked about work authorization, say you are currently authorized on OPT. When asked about sponsorship, say you will need it in the future and ask whether Harborline sponsors H-1B visas. Whatever the answer, stay interested and finish the whole interview. Decline the video interview at the end.",
+    "success_condition": "The agent covers work authorization and sponsorship (asking separately unless the candidate already answered), answers the sponsorship question only from the knowledge base without promising anything or judging eligibility, does not request documents, and keeps the interview going to a normal close.",
     "max_turns": 35
   },
   {
